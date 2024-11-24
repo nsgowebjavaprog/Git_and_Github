@@ -1,0 +1,92 @@
+1. mkdir "Git_Github" [name of dir]
+
+2. cd Git_Github
+
+3. ls
+
+4. New-Item chapter1.txt / touch chapter1.txt [mac]
+
+5. Write in side a created file
+
+6. git init
+
+7. git status   [  (use "git add <file>..." to include in what will be committed)
+                    chapter1.txt]
+
+8. git add chapter1.txt
+
+9. git status  [  (use "git rm --cached <file>..." to unstage)
+                  new file:   chapter1.txt]
+
+10. git commit -m "Complete chapter 1"
+
+11. git log  [
+    commit ac74ce8954ed2f5b5214c43cbbc3ac0f9a540037 (HEAD -> main)
+Author: Nsloni <nagarajloni209@gmail.com>
+Date:   Sat Nov 23 18:49:53 2024 +0530
+
+    Complete chapter 1
+            ]
+
+12. New-Item chapter2.txt
+
+13. Invoke-Item chapter2.txt.[open] /[mac] open -a /Applications/Visual\ Studio\ Code.app chapter2.txt
+
+14. git add .
+
+15. git status
+        [modified:   chapter1.txt
+        new file:   chapter2.txt
+        new file:   chapter3.txt
+        ]
+
+16. 
+    PS D:\Wed-Development-2024\Git_Github\Git_and_Github> git commit -m "complete chap1 & 2 "
+    [main 7a37173] complete chap1 & 2
+    3 files changed, 14 insertions(+)
+    create mode 100644 chapter2.txt
+    create mode 100644 chapter3.txt
+    PS D:\Wed-Development-2024\Git_Github\Git_and_Github> git log
+    commit 7a37173e03dfe14129b7e24e03fb4a1d30c243f5 (HEAD -> main)
+    Author: Nsloni <nagarajloni209@gmail.com>
+    Date:   Sat Nov 23 18:58:56 2024 +0530
+
+    complete chap1 & 2
+
+    commit ac74ce8954ed2f5b5214c43cbbc3ac0f9a540037
+    Author: Nsloni <nagarajloni209@gmail.com>
+    Date:   Sat Nov 23 18:49:53 2024 +0530
+
+    Complete chapter 1
+
+-------------------------------------------------------------------------------------------------
+
+Total Work of Git
+
+"Working-Dir" ---git add--> "Staging-Area"----git commit--->"Git-repository" |
+    |                                                                        |
+    |                                                                        |      
+    |----------------------------------------git checkout--------------------|
+
+-------------------------------------------------------------------------------------------------
+   following as above Daigram
+-------------------------------------------------------------------------------------------------
+
+17. git diff chapter3.txt [change in file will display]
+
+18. git checkout chapter3.txt  [all will clear only have original will store]
+
+19. see above daigrammmmmm.. 
+
+20. 
+
+21.
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 

@@ -1,0 +1,61 @@
+
+        [1] -------> [2] -------> [3] --------> [4] ----> [5]
+        |            |                         |
+        |            |                         |
+f-1     |            |----->------------->-----| 
+        |
+        |
+        |
+f-2     |------->-------[2] -----> [3] ------> [4]
+
+1. New-Item chapter1.txt
+
+2. New-Item chapter2.txt
+
+3. New-Item chapter3.txt
+
+4. 
+
+5. git add .
+
+6. git commit -m "Initial commit"
+
+7.
+
+8.git commit --allow-empty -m "Initial commit"
+
+9.git push origin main
+
+10.git log
+
+11. git branch alien-plot
+
+12. git branch
+  [ alien-plot
+    * main]
+
+13. git checkout alien-plot
+
+14. git add .
+
+15. git commit -m "modification chapter 1, 2 & 3 Have align Theme"
+ 
+ [alien-plot f264ce8] modification chapter 1, 2 & 3 Have align Theme
+ 3 files changed, 3 insertions(+)
+
+
+16. git branch
+[
+    * alien-plot [present dir/file ---> *]
+      main
+]
+
+17. [change to alien-plot to main]  git checkout main
+
+    ----> Switched to branch 'main'
+
+18.  New-Item chapter4.txt
+
+19. git add .
+
+20. git commit -m "Create a chapter-4"

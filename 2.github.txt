@@ -1,0 +1,12 @@
+Githun repositry name = folder name
+
+1. git remote add origin https://github.com/nsgowebjavaprog/Git_and_Github.git
+
+2. git push -u origin main
+
+3. git pull origin main --allow-unrelated-histories
+   git push -f origin main
+
+4. Push all files to "Github"
+
+5. next is gitignore

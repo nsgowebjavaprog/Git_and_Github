@@ -1,0 +1,53 @@
+1. mkdir Project
+
+2. cd Project
+
+3. New-Item file1.txt
+
+4. New-Item file2.txt
+
+5. New-Item file3.txt
+
+6. New-Item secrets.txt
+
+7. git init
+
+8. git add .
+
+9.  git status
+
+10. git rm --cached -r.
+
+11. git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        .DS_Store
+        file1.txt
+        file2.txt
+        file3.txt
+        secrets.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\We
+
+12. Using node js----> Test using folder
+
+13. npm i
+
+14. Invoke-Item .gitignore                                                  
+
+15.git init
+
+16. git add .
+
+17. git status
+
+18.git commit -m "Initialcommit"
+
+19.npx  nodemon index1.js
+
+20.

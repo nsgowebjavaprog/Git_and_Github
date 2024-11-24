@@ -1,0 +1,21 @@
+Push to GitHub repository
+
+1. Working Dir----git clone----> Remote repository
+
+2. Improve your own version
+
+3. git clone https://github.com/inolen/quakejs.git
+
+4. cd quakejs
+
+5. npm i
+
+6. echo "{ 'content': 'content.quakejs.com' }" > bin\web.json
+
+7. node bin/web.js --config ./web.json
+
+8. 
+
+9. 
+
+10. 
